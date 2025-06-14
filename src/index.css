@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer components {
+  .btn-black {
+    @apply bg-black text-white hover:bg-gray-800 active:bg-gray-900;
+  }
+}
